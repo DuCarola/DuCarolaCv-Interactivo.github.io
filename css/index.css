@@ -4,6 +4,8 @@ body{
    background-size: cover;
    background-position: center center;
    background-attachment: fixed;  
+   padding: 0;
+   margin: 0;
 }
 .header{
     display: grid;
@@ -25,7 +27,7 @@ body{
 .title, .titleContact, .titleInfo{
     
     font-size: 80px;
-    color: blueviolet;
+    color: #260339;
 }
 .titleContact{
     margin-left: 45%;
@@ -53,13 +55,26 @@ body{
     font-size: 20px;
     width: 200px;
     padding: 10px;
+    border-radius: 5%;
+    height: 5rem;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #260339;
+    color: #9775AA;
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .myPic{
     border-radius: 50%;
-    margin-left: 40%;
+    margin-top: 20px;
     height: 300px;
     width: 400px;
+    border: 3px groove goldenrod ;
+    
 }
 .content{
 
@@ -69,43 +84,79 @@ body{
     grid-template-rows: 1;
 }
 .contentContainer{
-    border: 2px solid black;
-    border-radius: 10%;
+    
+    border: 4px solid  #260339;
+    box-shadow: 5px  5px #120619 ;
+    border-radius: 5%;
+    padding: 2vh;
+    margin-left: 4vh;
     grid-area: 1/1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
 .aboutTitle, .studiesTitle, .contactInfoTitle{
-    margin-left: 45%;
     font-size: 50px;
+    color: #260339;
 }
 .aboutMeText, .infoText, .contactInfoText{
     font-size: 28px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .contactInfoText{
+    margin-left: 30px;
     font-weight: bold;
+    color: #260339;
 }
 .commentForm{
     display: flex;
     flex-direction: column;
     width: 400px;
-    
-    
 }
 .commentLabel{
     font-size: 28px;
     margin-left: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .formElement{
     margin-left: 30px;
     margin-top: 10px;
+    border-radius: 5%;
+}
+.textArea{
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5%;
 }
 .formBtn{
     margin-left: 30px;
-    width: 50px;
+    width: 8rem;
+    border-radius: 5%;
+    height: 3rem;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #260339;
+    color: #9775AA;
+    margin-top: 1vh
+}
+
+.backgroundColorBtn{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 30%;
+    margin-left: 50px;
+    width: 70px;
 }
 .footer{
-
-    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+.email, .footerText{
+    margin: 7vh;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
 }
