@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        
+        <nav class="navBar">
+            <ul class="navBarList">
+                <li class="navItem">
+                    <a href="./index.html">
+                        <button class="btn-Nav">
+                            Home
+                        </button> 
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="./info.html">
+                        <button class="btn-Nav">
+                            Info
+                        </button> 
+                    </a>
+                </li>
+                <li class="navItem">
+                    <a href="./contact.html">
+                        <button class="btn-Nav">
+                             Contact
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="titleContact"> Contact</h1>
+    </header>
+    <section class="content">
+        <div class="contentContainer">
+            <h2  class="contactInfoTitle"> Contact Me!</h2>
+            <div id="userComment">
+
+            </div>
+            <form action="POST" class="commentForm">
+                <label class="commentLabel" for="name">
+                     Nombre 
+                </label>
+                <input type="text" placeholder="Name" name="name" id="userName" class="formElement">
+                <label class="commentLabel" for="commentArea">
+                     Escribi tu comentario! 
+                </label>
+                <textarea name="comment" id="comment"  name="commentArea" cols="30" rows="10" class="formElement">
+                    
+                </textarea>
+                <button type="button" id="submitComment" class="formBtn">Enviar</button>
+            </form>
+        </div>
+        <div class="videoContainer">
+          
+            
+        </div>
+    </section>
+    <footer class="footer">
+
+    </footer>
+    <script src="../js/contact.js"></script>
+</body>
+</html>
